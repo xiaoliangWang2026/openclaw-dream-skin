@@ -1,0 +1,58 @@
+/* Rose Daydream — 蔷薇日梦 · 花漾少女 */
+/* 粉色基底 + 玫瑰红 + 柔软质感 */
+
+:root {
+  --bg: #fdf2f5;
+  --bg-accent: #fae8ed;
+  --bg-elevated: #fffcfd;
+  --bg-hover: #f5dce4;
+  --bg-muted: #faeef2;
+  --card: #fffcfd;
+  --card-foreground: #3d1a28;
+  --card-highlight: #e8508008;
+  --popover: #fffcfd;
+  --popover-foreground: #3d1a28;
+  --panel: #fdf2f5;
+  --panel-strong: #fffcfd;
+  --panel-hover: #f5dce4;
+  --chrome: #fdf2f5f5;
+  --chrome-strong: #fdf2f5fa;
+
+  --text: #6e3a50;
+  --text-strong: #3d1a28;
+  --chat-text: #6e3a50;
+  --muted: #a08090;
+  --muted-strong: #8a6070;
+
+  --border: #f0d0dc;
+  --border-strong: #e0b0c0;
+  --border-hover: #d090a8;
+  --input: #fae8ed;
+
+  --accent: #e85080;
+  --accent-hover: #d03868;
+  --accent-muted: #e85080b3;
+  --accent-subtle: #e8508015;
+  --accent-foreground: #ffffff;
+  --accent-glow: #e8508025;
+  --accent-2: #c87090;
+  --accent-2-muted: #c87090b3;
+  --accent-2-subtle: #c8709015;
+
+  --primary: #d04070;
+  --primary-foreground: #fff;
+  --secondary: #fae8ed;
+  --secondary-foreground: #3d1a28;
+  --ring: #e85080;
+  --focus: #e8508020;
+
+  --ok: #5a9a5e;
+  --destructive: #c04040;
+  --warn: #c08030;
+  --danger: #c04040;
+  --info: #8a5a9a;
+
+  --grid-line: #e8508008;
+  --selection-bg: #e8508030;
+  --selection-fg: #3d1a28;
+}
