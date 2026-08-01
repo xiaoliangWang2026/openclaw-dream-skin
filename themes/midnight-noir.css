@@ -1,0 +1,59 @@
+/* Midnight Noir — 优化版暗夜 */
+/* 比默认主题更深邃、更柔和 */
+
+:root {
+  --bg: #090b10;
+  --bg-accent: #0f1119;
+  --bg-elevated: #141720;
+  --bg-hover: #1a1e2a;
+  --bg-muted: #1a1e2a;
+  --card: #11131b;
+  --card-foreground: #e8e8ee;
+  --card-highlight: #ffffff08;
+  --popover: #141720;
+  --popover-foreground: #e8e8ee;
+  --panel: #090b10;
+  --panel-strong: #141720;
+  --panel-hover: #1a1e2a;
+  --chrome: #090b10f5;
+  --chrome-strong: #090b10fa;
+
+  --text: #c8c8d4;
+  --text-strong: #eeeeee;
+  --chat-text: #c8c8d4;
+  --muted: #707080;
+  --muted-strong: #787890;
+
+  --border: #1a1d28;
+  --border-strong: #282c3a;
+  --border-hover: #383c4a;
+  --input: #1a1d28;
+
+  --accent: #7c8cf8;
+  --accent-hover: #96a4ff;
+  --accent-muted: #7c8cf8b3;
+  --accent-subtle: #7c8cf81a;
+  --accent-foreground: #fafafa;
+  --accent-glow: #7c8cf833;
+  --accent-2: #22d3a8;
+  --accent-2-muted: #22d3a8b3;
+  --accent-2-subtle: #22d3a81a;
+
+  --primary: #7c8cf8;
+  --primary-foreground: #fff;
+  --secondary: #11131b;
+  --secondary-foreground: #e8e8ee;
+  --ring: #7c8cf8;
+  --focus: #7c8cf833;
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 3px color-mix(in srgb, var(--ring) 80%, transparent);
+  --focus-glow: 0 0 0 2px var(--bg), 0 0 0 3px var(--ring), 0 0 16px var(--accent-glow);
+
+  --ok: #22c55e;
+  --destructive: #ef4444;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+  --info: #60a5fa;
+
+  --grid-line: #ffffff06;
+  --selection-bg: #3b5998;
+}
