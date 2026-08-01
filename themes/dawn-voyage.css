@@ -1,0 +1,58 @@
+/* Dawn Voyage — 破晓启航 · 航海冒险 */
+/* 羊皮纸基底 + 天海蓝 + 金色点缀 */
+
+:root {
+  --bg: #f5efe0;
+  --bg-accent: #ede5d0;
+  --bg-elevated: #fcf8f0;
+  --bg-hover: #e5dac0;
+  --bg-muted: #f0e8d5;
+  --card: #fcf8f0;
+  --card-foreground: #1a2840;
+  --card-highlight: #c8a84008;
+  --popover: #fcf8f0;
+  --popover-foreground: #1a2840;
+  --panel: #f5efe0;
+  --panel-strong: #fcf8f0;
+  --panel-hover: #e5dac0;
+  --chrome: #f5efe0f5;
+  --chrome-strong: #f5efe0fa;
+
+  --text: #3a4058;
+  --text-strong: #1a2840;
+  --chat-text: #3a4058;
+  --muted: #8a8090;
+  --muted-strong: #6a6070;
+
+  --border: #e0d5b8;
+  --border-strong: #c8b890;
+  --border-hover: #a89060;
+  --input: #ede5d0;
+
+  --accent: #c8a840;
+  --accent-hover: #b89830;
+  --accent-muted: #c8a840b3;
+  --accent-subtle: #c8a84015;
+  --accent-foreground: #ffffff;
+  --accent-glow: #c8a84025;
+  --accent-2: #4a7cb8;
+  --accent-2-muted: #4a7cb8b3;
+  --accent-2-subtle: #4a7cb815;
+
+  --primary: #b09030;
+  --primary-foreground: #fff;
+  --secondary: #ede5d0;
+  --secondary-foreground: #1a2840;
+  --ring: #c8a840;
+  --focus: #c8a84020;
+
+  --ok: #5a9a5e;
+  --destructive: #c04040;
+  --warn: #c08030;
+  --danger: #c04040;
+  --info: #4a7cb8;
+
+  --grid-line: #c8a84008;
+  --selection-bg: #c8a84030;
+  --selection-fg: #1a2840;
+}
