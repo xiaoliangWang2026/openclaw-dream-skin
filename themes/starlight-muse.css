@@ -1,0 +1,58 @@
+/* Starlight Muse — 星光学苑 · 紫罗兰梦境 */
+/* 淡紫基底 + 水晶高光 + 星尘颗粒 */
+
+:root {
+  --bg: #f4effa;
+  --bg-accent: #ede4f5;
+  --bg-elevated: #fcf9ff;
+  --bg-hover: #e8ddf2;
+  --bg-muted: #f0eaf6;
+  --card: #fcf9ff;
+  --card-foreground: #2d1b3e;
+  --card-highlight: #7c3aed08;
+  --popover: #fcf9ff;
+  --popover-foreground: #2d1b3e;
+  --panel: #f4effa;
+  --panel-strong: #fcf9ff;
+  --panel-hover: #e8ddf2;
+  --chrome: #f4effaf5;
+  --chrome-strong: #f4effafa;
+
+  --text: #5a3e6e;
+  --text-strong: #2d1b3e;
+  --chat-text: #5a3e6e;
+  --muted: #9680aa;
+  --muted-strong: #7a6090;
+
+  --border: #e0d4ee;
+  --border-strong: #c4b0dc;
+  --border-hover: #a88ec4;
+  --input: #f0eaf6;
+
+  --accent: #9333ea;
+  --accent-hover: #7c22ce;
+  --accent-muted: #9333eab3;
+  --accent-subtle: #9333ea15;
+  --accent-foreground: #ffffff;
+  --accent-glow: #9333ea25;
+  --accent-2: #ec4899;
+  --accent-2-muted: #ec4899b3;
+  --accent-2-subtle: #ec489915;
+
+  --primary: #7c3aed;
+  --primary-foreground: #fff;
+  --secondary: #ede4f5;
+  --secondary-foreground: #2d1b3e;
+  --ring: #9333ea;
+  --focus: #9333ea20;
+
+  --ok: #22c55e;
+  --destructive: #ef4444;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+  --info: #7c3aed;
+
+  --grid-line: #9333ea08;
+  --selection-bg: #9333ea30;
+  --selection-fg: #2d1b3e;
+}
