@@ -1,0 +1,59 @@
+/* Cyberpunk Neon — 赛博朋克 */
+/* 高对比、霓虹色彩、科技感 */
+
+:root {
+  --bg: #0a0a14;
+  --bg-accent: #0d0d20;
+  --bg-elevated: #12122a;
+  --bg-hover: #181838;
+  --bg-muted: #12122a;
+  --card: #0f0f24;
+  --card-foreground: #e0e0ff;
+  --card-highlight: #ff00ff08;
+  --popover: #12122a;
+  --popover-foreground: #e0e0ff;
+  --panel: #0a0a14;
+  --panel-strong: #12122a;
+  --panel-hover: #181838;
+  --chrome: #0a0a14f0;
+  --chrome-strong: #0a0a14f8;
+
+  --text: #b8b8e0;
+  --text-strong: #e0e0ff;
+  --chat-text: #c0c0e8;
+  --muted: #6060a0;
+  --muted-strong: #7070b0;
+
+  --border: #1a1a40;
+  --border-strong: #2a2a60;
+  --border-hover: #4040ff;
+  --input: #1a1a40;
+
+  --accent: #ff2d95;
+  --accent-hover: #ff5cb5;
+  --accent-muted: #ff2d95b3;
+  --accent-subtle: #ff2d9520;
+  --accent-foreground: #ffffff;
+  --accent-glow: #ff2d9540;
+  --accent-2: #00e5ff;
+  --accent-2-muted: #00e5ffb3;
+  --accent-2-subtle: #00e5ff20;
+
+  --primary: #ff2d95;
+  --primary-foreground: #fff;
+  --secondary: #0f0f24;
+  --secondary-foreground: #e0e0ff;
+  --ring: #ff2d95;
+  --focus: #ff2d9540;
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 3px color-mix(in srgb, var(--ring) 80%, transparent);
+  --focus-glow: 0 0 0 2px var(--bg), 0 0 0 3px var(--ring), 0 0 20px var(--accent-glow);
+
+  --ok: #00ff88;
+  --destructive: #ff3366;
+  --warn: #ffaa00;
+  --danger: #ff3366;
+  --info: #00ccff;
+
+  --grid-line: #ff00ff0a;
+  --selection-bg: #ff2d9540;
+}
