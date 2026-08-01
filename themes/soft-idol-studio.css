@@ -1,0 +1,58 @@
+/* Soft Idol Studio — 手账星梦 · 温柔偶像 */
+/* 象牙白基底 + 鼠尾草绿 + 手写质感 */
+
+:root {
+  --bg: #faf8f2;
+  --bg-accent: #f3efe5;
+  --bg-elevated: #fffefb;
+  --bg-hover: #ede7d8;
+  --bg-muted: #f5f1e8;
+  --card: #fffefb;
+  --card-foreground: #2d2a24;
+  --card-highlight: #7c9a5e08;
+  --popover: #fffefb;
+  --popover-foreground: #2d2a24;
+  --panel: #faf8f2;
+  --panel-strong: #fffefb;
+  --panel-hover: #ede7d8;
+  --chrome: #faf8f2f5;
+  --chrome-strong: #faf8f2fa;
+
+  --text: #5a5446;
+  --text-strong: #2d2a24;
+  --chat-text: #5a5446;
+  --muted: #9a9486;
+  --muted-strong: #7a7466;
+
+  --border: #e5e0d0;
+  --border-strong: #d0c8b0;
+  --border-hover: #b8a888;
+  --input: #f3efe5;
+
+  --accent: #7c9a5e;
+  --accent-hover: #6a8a4e;
+  --accent-muted: #7c9a5eb3;
+  --accent-subtle: #7c9a5e15;
+  --accent-foreground: #ffffff;
+  --accent-glow: #7c9a5e20;
+  --accent-2: #d4a76a;
+  --accent-2-muted: #d4a76ab3;
+  --accent-2-subtle: #d4a76a15;
+
+  --primary: #6b8a4e;
+  --primary-foreground: #fff;
+  --secondary: #f3efe5;
+  --secondary-foreground: #2d2a24;
+  --ring: #7c9a5e;
+  --focus: #7c9a5e20;
+
+  --ok: #5a9a5e;
+  --destructive: #c04040;
+  --warn: #c08030;
+  --danger: #c04040;
+  --info: #5a8a9a;
+
+  --grid-line: #7c9a5e08;
+  --selection-bg: #7c9a5e30;
+  --selection-fg: #2d2a24;
+}
