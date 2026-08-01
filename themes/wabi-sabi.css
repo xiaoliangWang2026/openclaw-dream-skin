@@ -1,0 +1,60 @@
+/* Wabi-Sabi — 和风侘寂 */
+/* 温暖、质朴、纸质感 */
+
+:root {
+  --bg: #f5f0e8;
+  --bg-accent: #ede6db;
+  --bg-elevated: #faf7f2;
+  --bg-hover: #e8e0d0;
+  --bg-muted: #f0ebe0;
+  --card: #faf7f2;
+  --card-foreground: #2c2416;
+  --card-highlight: #8b5e3c08;
+  --popover: #faf7f2;
+  --popover-foreground: #2c2416;
+  --panel: #f5f0e8;
+  --panel-strong: #faf7f2;
+  --panel-hover: #e8e0d0;
+  --chrome: #f5f0e8f5;
+  --chrome-strong: #f5f0e8fa;
+
+  --text: #5c4a3a;
+  --text-strong: #2c2416;
+  --chat-text: #5c4a3a;
+  --muted: #8b7866;
+  --muted-strong: #6b5a4a;
+
+  --border: #e0d5c0;
+  --border-strong: #d0c4a8;
+  --border-hover: #b8a888;
+  --input: #f0ebe0;
+
+  --accent: #c0563d;
+  --accent-hover: #a0403a;
+  --accent-muted: #c0563db3;
+  --accent-subtle: #c0563d15;
+  --accent-foreground: #ffffff;
+  --accent-glow: #c0563d20;
+  --accent-2: #4a7c59;
+  --accent-2-muted: #4a7c59b3;
+  --accent-2-subtle: #4a7c5915;
+
+  --primary: #8b5e3c;
+  --primary-foreground: #fff;
+  --secondary: #ede6db;
+  --secondary-foreground: #2c2416;
+  --ring: #c0563d;
+  --focus: #c0563d20;
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 3px color-mix(in srgb, var(--ring) 60%, transparent);
+  --focus-glow: 0 0 0 2px var(--bg), 0 0 0 3px var(--ring), 0 0 12px var(--accent-glow);
+
+  --ok: #5a8f6a;
+  --destructive: #c04040;
+  --warn: #c08030;
+  --danger: #c04040;
+  --info: #4a6a8a;
+
+  --grid-line: #8b5e3c08;
+  --selection-bg: #c0563d30;
+  --selection-fg: #2c2416;
+}
