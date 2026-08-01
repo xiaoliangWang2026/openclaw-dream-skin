@@ -95,25 +95,59 @@
       name: '🌙 暗夜 Midnight Noir',
       desc: '北境星空 · 极光飘带 · 星粒闪烁',
       css: `:root{--bg:#090b10;--bg-accent:#0f1119;--bg-elevated:#141720;--bg-hover:#1a1e2a;--bg-muted:#1a1e2a;--card:#11131b;--card-foreground:#e8e8ee;--popover:#141720;--popover-foreground:#e8e8ee;--panel:#090b10;--panel-strong:#141720;--panel-hover:#1a1e2a;--chrome:#090b10f5;--chrome-strong:#090b10fa;--text:#c8c8d4;--text-strong:#eee;--chat-text:#c8c8d4;--muted:#707080;--muted-strong:#787890;--border:#1a1d28;--border-strong:#282c3a;--border-hover:#383c4a;--input:#1a1d28;--accent:#7c8cf8;--accent-hover:#96a4ff;--accent-muted:#7c8cf8b3;--accent-subtle:#7c8cf81a;--accent-foreground:#fafafa;--accent-glow:#7c8cf833;--accent-2:#22d3a8;--accent-2-muted:#22d3a8b3;--accent-2-subtle:#22d3a81a;--primary:#7c8cf8;--primary-foreground:#fff;--secondary:#11131b;--secondary-foreground:#e8e8ee;--ring:#7c8cf8;--focus:#7c8cf833;--ok:#22c55e;--destructive:#ef4444;--warn:#f59e0b;--danger:#ef4444;--info:#60a5fa;--grid-line:#ffffff06;--selection-bg:#3b5998}`,
-      bgPreset: 'midnight'
+      bgPreset: 'midnight',
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-midnight.png'
     },
     light: {
       name: '☀️ 极简白 Minimal Light',
       desc: '晨光几何 · 柔焦光斑 · 细线纹理',
       css: `:root{--bg:#f8f7f4;--bg-accent:#f0efec;--bg-elevated:#fff;--bg-hover:#ecebe8;--bg-muted:#f0efec;--card:#fff;--card-foreground:#1a1a1e;--popover:#fff;--popover-foreground:#1a1a1e;--panel:#f8f7f4;--panel-strong:#fff;--panel-hover:#ecebe8;--chrome:#f8f7f4f5;--chrome-strong:#f8f7f4fa;--text:#3c3c44;--text-strong:#1a1a1e;--chat-text:#3c3c44;--muted:#889;--muted-strong:#707080;--border:#e0dfdc;--border-strong:#d0cfcc;--border-hover:#c0bfbc;--input:#f0efec;--accent:#4f6ef7;--accent-hover:#3d5ce5;--accent-muted:#4f6ef7b3;--accent-subtle:#4f6ef715;--accent-foreground:#fff;--accent-glow:#4f6ef720;--accent-2:#0ea88f;--accent-2-muted:#0ea88fb3;--accent-2-subtle:#0ea88f15;--primary:#4f6ef7;--primary-foreground:#fff;--secondary:#f0efec;--secondary-foreground:#1a1a1e;--ring:#4f6ef7;--focus:#4f6ef720;--ok:#16a34a;--destructive:#dc2626;--warn:#d97706;--danger:#dc2626;--info:#2563eb;--grid-line:#00000006;--selection-bg:#4f6ef730;--selection-fg:#1a1a1e}`,
-      bgPreset: 'light'
+      bgPreset: 'light',
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-light.png'
     },
     cyberpunk: {
       name: '⚡ 赛博朋克 Cyberpunk',
       desc: '霓虹矩阵 · 透视网格 · 扫描线',
       css: `:root{--bg:#0a0a14;--bg-accent:#0d0d20;--bg-elevated:#12122a;--bg-hover:#181838;--bg-muted:#12122a;--card:#0f0f24;--card-foreground:#e0e0ff;--popover:#12122a;--popover-foreground:#e0e0ff;--panel:#0a0a14;--panel-strong:#12122a;--panel-hover:#181838;--chrome:#0a0a14f0;--chrome-strong:#0a0a14f8;--text:#b8b8e0;--text-strong:#e0e0ff;--chat-text:#c0c0e8;--muted:#6060a0;--muted-strong:#7070b0;--border:#1a1a40;--border-strong:#2a2a60;--border-hover:#4040ff;--input:#1a1a40;--accent:#ff2d95;--accent-hover:#ff5cb5;--accent-muted:#ff2d95b3;--accent-subtle:#ff2d9520;--accent-foreground:#fff;--accent-glow:#ff2d9540;--accent-2:#00e5ff;--accent-2-muted:#00e5ffb3;--accent-2-subtle:#00e5ff20;--primary:#ff2d95;--primary-foreground:#fff;--secondary:#0f0f24;--secondary-foreground:#e0e0ff;--ring:#ff2d95;--focus:#ff2d9540;--ok:#00ff88;--destructive:#ff3366;--warn:#fa0;--danger:#ff3366;--info:#0cf;--grid-line:#ff00ff0a;--selection-bg:#ff2d9540}`,
-      bgPreset: 'cyberpunk'
+      bgPreset: 'cyberpunk',
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-cyberpunk.png'
     },
     wabisabi: {
       name: '🍵 和风侘寂 Wabi-Sabi',
       desc: '墨韵金箔 · 宣纸纹理 · 水墨晕染',
       css: `:root{--bg:#f5f0e8;--bg-accent:#ede6db;--bg-elevated:#faf7f2;--bg-hover:#e8e0d0;--bg-muted:#f0ebe0;--card:#faf7f2;--card-foreground:#2c2416;--popover:#faf7f2;--popover-foreground:#2c2416;--panel:#f5f0e8;--panel-strong:#faf7f2;--panel-hover:#e8e0d0;--chrome:#f5f0e8f5;--chrome-strong:#f5f0e8fa;--text:#5c4a3a;--text-strong:#2c2416;--chat-text:#5c4a3a;--muted:#8b7866;--muted-strong:#6b5a4a;--border:#e0d5c0;--border-strong:#d0c4a8;--border-hover:#b8a888;--input:#f0ebe0;--accent:#c0563d;--accent-hover:#a0403a;--accent-muted:#c0563db3;--accent-subtle:#c0563d15;--accent-foreground:#fff;--accent-glow:#c0563d20;--accent-2:#4a7c59;--accent-2-muted:#4a7c59b3;--accent-2-subtle:#4a7c5915;--primary:#8b5e3c;--primary-foreground:#fff;--secondary:#ede6db;--secondary-foreground:#2c2416;--ring:#c0563d;--focus:#c0563d20;--ok:#5a8f6a;--destructive:#c04040;--warn:#c08030;--danger:#c04040;--info:#4a6a8a;--grid-line:#8b5e3c08;--selection-bg:#c0563d30;--selection-fg:#2c2416}`,
-      bgPreset: 'wabisabi'
+      bgPreset: 'wabisabi',
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-wabisabi.png'
+    },
+    dawnvoyage: {
+      name: '⛵ 破晓启航 Dawn Voyage',
+      desc: '羊皮纸 · 天海蓝 · 金色点缀',
+      css: `:root{--bg: #f5efe0; --bg-accent: #ede5d0; --bg-elevated: #fcf8f0; --bg-hover: #e5dac0; --bg-muted: #f0e8d5; --card: #fcf8f0; --card-foreground: #1a2840; --card-highlight: #c8a84008; --popover: #fcf8f0; --popover-foreground: #1a2840; --panel: #f5efe0; --panel-strong: #fcf8f0; --panel-hover: #e5dac0; --chrome: #f5efe0f5; --chrome-strong: #f5efe0fa; --text: #3a4058; --text-strong: #1a2840; --chat-text: #3a4058; --muted: #8a8090; --muted-strong: #6a6070; --border: #e0d5b8; --border-strong: #c8b890; --border-hover: #a89060; --input: #ede5d0; --accent: #c8a840; --accent-hover: #b89830; --accent-muted: #c8a840b3; --accent-subtle: #c8a84015; --accent-foreground: #ffffff; --accent-glow: #c8a84025; --accent-2: #4a7cb8; --accent-2-muted: #4a7cb8b3; --accent-2-subtle: #4a7cb815; --primary: #b09030; --primary-foreground: #fff; --secondary: #ede5d0; --secondary-foreground: #1a2840; --ring: #c8a840; --focus: #c8a84020; --ok: #5a9a5e; --destructive: #c04040; --warn: #c08030; --danger: #c04040; --info: #4a7cb8; --grid-line: #c8a84008; --selection-bg: #c8a84030; --selection-fg: #1a2840;}`,
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-dawnvoyage.png'
+    },
+    rosedaydream: {
+      name: '🌹 玫瑰白日梦 Rose Daydream',
+      desc: '柔粉浪漫 · 玫瑰花瓣 · 甜梦',
+      css: `:root{--bg: #fdf2f5; --bg-accent: #fae8ed; --bg-elevated: #fffcfd; --bg-hover: #f5dce4; --bg-muted: #faeef2; --card: #fffcfd; --card-foreground: #3d1a28; --card-highlight: #e8508008; --popover: #fffcfd; --popover-foreground: #3d1a28; --panel: #fdf2f5; --panel-strong: #fffcfd; --panel-hover: #f5dce4; --chrome: #fdf2f5f5; --chrome-strong: #fdf2f5fa; --text: #6e3a50; --text-strong: #3d1a28; --chat-text: #6e3a50; --muted: #a08090; --muted-strong: #8a6070; --border: #f0d0dc; --border-strong: #e0b0c0; --border-hover: #d090a8; --input: #fae8ed; --accent: #e85080; --accent-hover: #d03868; --accent-muted: #e85080b3; --accent-subtle: #e8508015; --accent-foreground: #ffffff; --accent-glow: #e8508025; --accent-2: #c87090; --accent-2-muted: #c87090b3; --accent-2-subtle: #c8709015; --primary: #d04070; --primary-foreground: #fff; --secondary: #fae8ed; --secondary-foreground: #3d1a28; --ring: #e85080; --focus: #e8508020; --ok: #5a9a5e; --destructive: #c04040; --warn: #c08030; --danger: #c04040; --info: #8a5a9a; --grid-line: #e8508008; --selection-bg: #e8508030; --selection-fg: #3d1a28;}`,
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-rosedaydream.png'
+    },
+    softidol: {
+      name: '🎀 柔和偶像 Soft Idol',
+      desc: '清新可爱 · 偶像工作室 · 粉嫩',
+      css: `:root{--bg: #faf8f2; --bg-accent: #f3efe5; --bg-elevated: #fffefb; --bg-hover: #ede7d8; --bg-muted: #f5f1e8; --card: #fffefb; --card-foreground: #2d2a24; --card-highlight: #7c9a5e08; --popover: #fffefb; --popover-foreground: #2d2a24; --panel: #faf8f2; --panel-strong: #fffefb; --panel-hover: #ede7d8; --chrome: #faf8f2f5; --chrome-strong: #faf8f2fa; --text: #5a5446; --text-strong: #2d2a24; --chat-text: #5a5446; --muted: #9a9486; --muted-strong: #7a7466; --border: #e5e0d0; --border-strong: #d0c8b0; --border-hover: #b8a888; --input: #f3efe5; --accent: #7c9a5e; --accent-hover: #6a8a4e; --accent-muted: #7c9a5eb3; --accent-subtle: #7c9a5e15; --accent-foreground: #ffffff; --accent-glow: #7c9a5e20; --accent-2: #d4a76a; --accent-2-muted: #d4a76ab3; --accent-2-subtle: #d4a76a15; --primary: #6b8a4e; --primary-foreground: #fff; --secondary: #f3efe5; --secondary-foreground: #2d2a24; --ring: #7c9a5e; --focus: #7c9a5e20; --ok: #5a9a5e; --destructive: #c04040; --warn: #c08030; --danger: #c04040; --info: #5a8a9a; --grid-line: #7c9a5e08; --selection-bg: #7c9a5e30; --selection-fg: #2d2a24;}`,
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-softidol.png'
+    },
+    soulpassage: {
+      name: '🔮 灵魂之旅 Soul Passage',
+      desc: '神秘深邃 · 星空隧道 · 灵性',
+      css: `:root{--bg: #060b1a; --bg-accent: #0a1128; --bg-elevated: #0f1838; --bg-hover: #142048; --bg-muted: #0f1838; --card: #0c1430; --card-foreground: #e0e8ff; --card-highlight: #3b82f608; --popover: #0f1838; --popover-foreground: #e0e8ff; --panel: #060b1a; --panel-strong: #0f1838; --panel-hover: #142048; --chrome: #060b1af5; --chrome-strong: #060b1afa; --text: #b0c4e8; --text-strong: #e0e8ff; --chat-text: #b8c8ec; --muted: #5a709a; --muted-strong: #6a80aa; --border: #142048; --border-strong: #1e3068; --border-hover: #3b82f6; --input: #142048; --accent: #60a5fa; --accent-hover: #93bbfc; --accent-muted: #60a5fab3; --accent-subtle: #60a5fa15; --accent-foreground: #ffffff; --accent-glow: #60a5fa30; --accent-2: #22d3ee; --accent-2-muted: #22d3eeb3; --accent-2-subtle: #22d3ee15; --primary: #3b82f6; --primary-foreground: #fff; --secondary: #0c1430; --secondary-foreground: #e0e8ff; --ring: #60a5fa; --focus: #60a5fa20; --ok: #22c55e; --destructive: #ef4444; --warn: #f59e0b; --danger: #ef4444; --info: #60a5fa; --grid-line: #3b82f608; --selection-bg: #3b82f640;}`,
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-soulpassage.png'
+    },
+    starlight: {
+      name: '✨ 星光缪斯 Starlight Muse',
+      desc: '璀璨星空 · 银河 · 星光',
+      css: `:root{--bg: #f4effa; --bg-accent: #ede4f5; --bg-elevated: #fcf9ff; --bg-hover: #e8ddf2; --bg-muted: #f0eaf6; --card: #fcf9ff; --card-foreground: #2d1b3e; --card-highlight: #7c3aed08; --popover: #fcf9ff; --popover-foreground: #2d1b3e; --panel: #f4effa; --panel-strong: #fcf9ff; --panel-hover: #e8ddf2; --chrome: #f4effaf5; --chrome-strong: #f4effafa; --text: #5a3e6e; --text-strong: #2d1b3e; --chat-text: #5a3e6e; --muted: #9680aa; --muted-strong: #7a6090; --border: #e0d4ee; --border-strong: #c4b0dc; --border-hover: #a88ec4; --input: #f0eaf6; --accent: #9333ea; --accent-hover: #7c22ce; --accent-muted: #9333eab3; --accent-subtle: #9333ea15; --accent-foreground: #ffffff; --accent-glow: #9333ea25; --accent-2: #ec4899; --accent-2-muted: #ec4899b3; --accent-2-subtle: #ec489915; --primary: #7c3aed; --primary-foreground: #fff; --secondary: #ede4f5; --secondary-foreground: #2d1b3e; --ring: #9333ea; --focus: #9333ea20; --ok: #22c55e; --destructive: #ef4444; --warn: #f59e0b; --danger: #ef4444; --info: #7c3aed; --grid-line: #9333ea08; --selection-bg: #9333ea30; --selection-fg: #2d1b3e;}`,
+      bgImage: 'https://raw.githubusercontent.com/xiaoliangWang2026/openclaw-dream-skin/main/bg-images/bg-starlight.png'
     }
   }
 
@@ -126,7 +160,6 @@
   let bgStyleEl = null
   let panelEl = null
 
-  // ===== BACKGROUND SYSTEM =====
   function getBackgroundCSS() {
     if (!currentTheme || currentTheme === 'default') return ''
 
@@ -147,9 +180,27 @@
       `
     }
 
-    // Theme preset background
+    // Theme preset background (real image from GitHub CDN)
     const theme = themes[currentTheme]
-    if (!theme || !theme.bgPreset) return ''
+    if (!theme) return ''
+    if (theme.bgImage) {
+      return `
+        body::before {
+          content: '';
+          position: fixed; inset: 0; z-index: -1;
+          background-image: url('${theme.bgImage}');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          opacity: ${bgOpacity};
+          filter: blur(${bgBlur}px);
+          pointer-events: none;
+        }
+      `
+    }
+
+    // Fallback: CSS gradient preset
+    if (!theme.bgPreset) return ''
     const preset = presetBackgrounds[theme.bgPreset]
     if (!preset) return ''
 
