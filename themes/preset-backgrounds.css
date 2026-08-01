@@ -1,0 +1,129 @@
+/* ═══════════════════════════════════════════════════
+   OpenClaw Dream Skin — 预设背景图集
+   每套背景 = 多层 CSS 叠加模拟真实质感
+   ═══════════════════════════════════════════════════ */
+
+/* ─── 1. 暗夜 Midnight: 北境星空 ─── */
+/* 深空渐变 + 星点粒子 + 极光飘带 + 山峦剪影 */
+--bg-preset-midnight: 
+  /* 深空底色 */
+  radial-gradient(ellipse 100% 100% at 20% 0%, #0d1128 0%, transparent 50%),
+  radial-gradient(ellipse 80% 100% at 80% 100%, #0a0f2e 0%, transparent 50%),
+  /* 极光飘带：青绿色横贯天空 */
+  radial-gradient(ellipse 120% 40% at 50% 25%, rgba(34,211,168,0.06) 0%, transparent 60%),
+  radial-gradient(ellipse 80% 25% at 30% 30%, rgba(124,140,248,0.05) 0%, transparent 50%),
+  radial-gradient(ellipse 60% 20% at 70% 20%, rgba(34,211,168,0.04) 0%, transparent 50%),
+  /* 星粒：散布白点模拟星空 */
+  radial-gradient(circle 2px at 10% 15%, rgba(255,255,255,0.12) 0%, transparent 100%),
+  radial-gradient(circle 1px at 25% 8%, rgba(255,255,255,0.10) 0%, transparent 100%),
+  radial-gradient(circle 2px at 45% 22%, rgba(255,255,255,0.08) 0%, transparent 100%),
+  radial-gradient(circle 1px at 65% 12%, rgba(255,255,255,0.11) 0%, transparent 100%),
+  radial-gradient(circle 2px at 85% 18%, rgba(255,255,255,0.09) 0%, transparent 100%),
+  radial-gradient(circle 1px at 15% 35%, rgba(255,255,255,0.07) 0%, transparent 100%),
+  radial-gradient(circle 2px at 55% 28%, rgba(255,255,255,0.10) 0%, transparent 100%),
+  radial-gradient(circle 1px at 75% 40%, rgba(255,255,255,0.06) 0%, transparent 100%),
+  radial-gradient(circle 1px at 35% 50%, rgba(255,255,255,0.08) 0%, transparent 100%),
+  radial-gradient(circle 2px at 90% 55%, rgba(255,255,255,0.07) 0%, transparent 100%),
+  /* 远山剪影：底部暗色过渡 */
+  linear-gradient(0deg, rgba(9,11,16,0.6) 0%, transparent 40%),
+  /* 整体微光 */
+  radial-gradient(ellipse 50% 50% at 50% 40%, rgba(124,140,248,0.04) 0%, transparent 100%);
+
+/* ─── 2. 极简白 Minimal: 晨光几何 ─── */
+/* 柔白基底 + 几何暗纹 + 柔焦光斑 + 微噪点 */
+--bg-preset-light:
+  /* 暖白基底 */
+  radial-gradient(ellipse 80% 60% at 30% 0%, rgba(248,247,244,0.8) 0%, transparent 50%),
+  /* 右上暖光 */
+  radial-gradient(circle 100% at 90% 0%, rgba(255,245,230,0.4) 0%, transparent 60%),
+  /* 左下冷光 */
+  radial-gradient(circle 80% at 10% 100%, rgba(230,240,255,0.3) 0%, transparent 50%),
+  /* 几何暗纹：大圆切角 */
+  radial-gradient(circle 300px at 85% 15%, rgba(200,200,210,0.08) 0%, transparent 100%),
+  radial-gradient(circle 200px at 15% 85%, rgba(200,200,210,0.06) 0%, transparent 100%),
+  /* 细线纹理 */
+  repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 60px,
+    rgba(0,0,0,0.008) 60px,
+    rgba(0,0,0,0.008) 61px
+  ),
+  /* 柔焦光斑 */
+  radial-gradient(circle 50px at 75% 25%, rgba(79,110,247,0.04) 0%, transparent 100%),
+  radial-gradient(circle 40px at 20% 70%, rgba(14,168,143,0.03) 0%, transparent 100%),
+  /* 底部渐变 */
+  linear-gradient(180deg, transparent 70%, rgba(240,239,236,0.5) 100%);
+
+/* ─── 3. 赛博朋克 Cyberpunk: 霓虹矩阵 ─── */
+/* 深紫基底 + 透视网格 + 扫描线 + 霓虹光晕 + 数据流 */
+--bg-preset-cyberpunk:
+  /* 深紫基底 */
+  radial-gradient(ellipse 100% 100% at 50% 0%, #0d0a20 0%, transparent 60%),
+  radial-gradient(ellipse 80% 100% at 50% 100%, #1a0a20 0%, transparent 50%),
+  /* 透视网格：地平线 */
+  linear-gradient(0deg, transparent 65%, rgba(255,45,149,0.04) 65.5%, transparent 66%),
+  /* 竖线网格（远密近疏） */
+  repeating-linear-gradient(90deg,
+    transparent, transparent 40px,
+    rgba(0,229,255,0.015) 40px,
+    rgba(0,229,255,0.015) 41px
+  ),
+  /* 横线 */
+  repeating-linear-gradient(0deg,
+    transparent, transparent 40px,
+    rgba(255,45,149,0.015) 40px,
+    rgba(255,45,149,0.015) 41px
+  ),
+  /* 中央霓虹光柱 */
+  radial-gradient(ellipse 5% 60% at 50% 50%, rgba(0,229,255,0.06) 0%, transparent 100%),
+  /* 左侧品红光晕 */
+  radial-gradient(circle 30% at 20% 30%, rgba(255,45,149,0.05) 0%, transparent 100%),
+  /* 右侧青色光晕 */
+  radial-gradient(circle 25% at 80% 60%, rgba(0,229,255,0.04) 0%, transparent 100%),
+  /* 底部发光 */
+  radial-gradient(ellipse 100% 15% at 50% 100%, rgba(255,45,149,0.06) 0%, transparent 100%),
+  /* 扫描线效果 */
+  repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,0.03) 2px,
+    rgba(0,0,0,0.03) 4px
+  ),
+  /* 噪点纹理 */
+  radial-gradient(circle 1px at 20% 20%, rgba(255,255,255,0.03) 0%, transparent 100%),
+  radial-gradient(circle 1px at 60% 40%, rgba(255,255,255,0.02) 0%, transparent 100%),
+  radial-gradient(circle 1px at 40% 70%, rgba(255,255,255,0.03) 0%, transparent 100%),
+  radial-gradient(circle 1px at 80% 30%, rgba(255,255,255,0.02) 0%, transparent 100%),
+  /* 光晕叠加 */
+  radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255,45,149,0.03) 0%, transparent 100%);
+
+/* ─── 4. 和风侘寂 Wabi-Sabi: 墨韵金箔 ─── */
+/* 宣纸基底 + 水墨晕染 + 金箔碎片 + 纤维纹理 */
+--bg-preset-wabisabi:
+  /* 宣纸底色 */
+  radial-gradient(ellipse 100% 60% at 50% 0%, #faf7f2 0%, transparent 50%),
+  radial-gradient(ellipse 80% 80% at 50% 100%, #ede6db 0%, transparent 50%),
+  /* 水墨晕染：浓淡相间 */
+  radial-gradient(ellipse 300px 200px at 30% 40%, rgba(139,90,43,0.04) 0%, transparent 100%),
+  radial-gradient(ellipse 250px 180px at 70% 30%, rgba(139,90,43,0.03) 0%, transparent 100%),
+  radial-gradient(circle 150px at 50% 60%, rgba(74,124,89,0.03) 0%, transparent 100%),
+  radial-gradient(circle 100px at 20% 70%, rgba(139,90,43,0.02) 0%, transparent 100%),
+  /* 金箔碎片 */
+  radial-gradient(ellipse 8px 5px at 15% 25%, rgba(192,160,100,0.12) 0%, transparent 100%),
+  radial-gradient(ellipse 12px 6px at 75% 15%, rgba(192,160,100,0.08) 0%, transparent 100%),
+  radial-gradient(ellipse 6px 4px at 55% 85%, rgba(192,160,100,0.10) 0%, transparent 100%),
+  radial-gradient(ellipse 10px 7px at 30% 55%, rgba(192,160,100,0.06) 0%, transparent 100%),
+  radial-gradient(ellipse 5px 3px at 85% 70%, rgba(192,160,100,0.09) 0%, transparent 100%),
+  /* 纤维纹理：极细横线模拟和纸纤维 */
+  repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 3px,
+    rgba(160,140,110,0.02) 3px,
+    rgba(160,140,110,0.02) 4px
+  ),
+  /* 边缘做旧 */
+  radial-gradient(ellipse 100% 100% at 0% 50%, rgba(200,180,150,0.04) 0%, transparent 50%),
+  radial-gradient(ellipse 100% 100% at 100% 50%, rgba(200,180,150,0.03) 0%, transparent 50%);
