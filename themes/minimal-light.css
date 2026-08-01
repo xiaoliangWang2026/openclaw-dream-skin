@@ -1,0 +1,60 @@
+/* Minimal Light — 极简白 */
+/* 干净、专业、护眼的浅色主题 */
+
+:root {
+  --bg: #f8f7f4;
+  --bg-accent: #f0efec;
+  --bg-elevated: #ffffff;
+  --bg-hover: #ecebe8;
+  --bg-muted: #f0efec;
+  --card: #ffffff;
+  --card-foreground: #1a1a1e;
+  --card-highlight: #00000004;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1e;
+  --panel: #f8f7f4;
+  --panel-strong: #ffffff;
+  --panel-hover: #ecebe8;
+  --chrome: #f8f7f4f5;
+  --chrome-strong: #f8f7f4fa;
+
+  --text: #3c3c44;
+  --text-strong: #1a1a1e;
+  --chat-text: #3c3c44;
+  --muted: #888899;
+  --muted-strong: #707080;
+
+  --border: #e0dfdc;
+  --border-strong: #d0cfcc;
+  --border-hover: #c0bfbc;
+  --input: #f0efec;
+
+  --accent: #4f6ef7;
+  --accent-hover: #3d5ce5;
+  --accent-muted: #4f6ef7b3;
+  --accent-subtle: #4f6ef715;
+  --accent-foreground: #ffffff;
+  --accent-glow: #4f6ef720;
+  --accent-2: #0ea88f;
+  --accent-2-muted: #0ea88fb3;
+  --accent-2-subtle: #0ea88f15;
+
+  --primary: #4f6ef7;
+  --primary-foreground: #fff;
+  --secondary: #f0efec;
+  --secondary-foreground: #1a1a1e;
+  --ring: #4f6ef7;
+  --focus: #4f6ef720;
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 3px color-mix(in srgb, var(--ring) 60%, transparent);
+  --focus-glow: 0 0 0 2px var(--bg), 0 0 0 3px var(--ring), 0 0 12px var(--accent-glow);
+
+  --ok: #16a34a;
+  --destructive: #dc2626;
+  --warn: #d97706;
+  --danger: #dc2626;
+  --info: #2563eb;
+
+  --grid-line: #00000006;
+  --selection-bg: #4f6ef730;
+  --selection-fg: #1a1a1e;
+}
