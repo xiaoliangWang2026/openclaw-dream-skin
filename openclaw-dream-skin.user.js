@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         OpenClaw Dream Skin
 // @namespace    openclaw-dream-skin
-// @version      2.0.0
-// @description  给 OpenClaw 换肤 — 预设背景图 + 自定义导入 + 4套主题 + 保存切换
+// @version      2.1.0
+// @description  给 OpenClaw 换肤 — 9套主题 + 真实背景图 + 自定义导入 + 保存切换
 // @author       OpenClaw Assistant
 // @match        http://127.0.0.1:18789/*
 // @match        http://localhost:18789/*
