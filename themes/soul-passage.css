@@ -1,0 +1,57 @@
+/* Soul Passage — 渡魂引 · 仙侠冰境 */
+/* 深蓝基底 + 冰蓝光晕 + 幽玄意境 */
+
+:root {
+  --bg: #060b1a;
+  --bg-accent: #0a1128;
+  --bg-elevated: #0f1838;
+  --bg-hover: #142048;
+  --bg-muted: #0f1838;
+  --card: #0c1430;
+  --card-foreground: #e0e8ff;
+  --card-highlight: #3b82f608;
+  --popover: #0f1838;
+  --popover-foreground: #e0e8ff;
+  --panel: #060b1a;
+  --panel-strong: #0f1838;
+  --panel-hover: #142048;
+  --chrome: #060b1af5;
+  --chrome-strong: #060b1afa;
+
+  --text: #b0c4e8;
+  --text-strong: #e0e8ff;
+  --chat-text: #b8c8ec;
+  --muted: #5a709a;
+  --muted-strong: #6a80aa;
+
+  --border: #142048;
+  --border-strong: #1e3068;
+  --border-hover: #3b82f6;
+  --input: #142048;
+
+  --accent: #60a5fa;
+  --accent-hover: #93bbfc;
+  --accent-muted: #60a5fab3;
+  --accent-subtle: #60a5fa15;
+  --accent-foreground: #ffffff;
+  --accent-glow: #60a5fa30;
+  --accent-2: #22d3ee;
+  --accent-2-muted: #22d3eeb3;
+  --accent-2-subtle: #22d3ee15;
+
+  --primary: #3b82f6;
+  --primary-foreground: #fff;
+  --secondary: #0c1430;
+  --secondary-foreground: #e0e8ff;
+  --ring: #60a5fa;
+  --focus: #60a5fa20;
+
+  --ok: #22c55e;
+  --destructive: #ef4444;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+  --info: #60a5fa;
+
+  --grid-line: #3b82f608;
+  --selection-bg: #3b82f640;
+}
